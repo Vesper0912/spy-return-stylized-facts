@@ -23,11 +23,11 @@
 
 | 分布 vs 正态拟合 | 尾部（对数轴） | 收益率时序 |
 | --- | --- | --- |
-| ![](figures/fig1_hist_vs_normal.png) | ![](figures/fig2_tail_logscale.png) | ![](figures/fig3_returns_ts.png) |
+| ![](fig1_hist_vs_normal.png) | ![](fig2_tail_logscale.png) | ![](fig3_returns_ts.png) |
 
 | ACF(r) | ACF(r²) | GARCH 条件波动率 |
 | --- | --- | --- |
-| ![](figures/fig4_acf_r.png) | ![](figures/fig5_acf_r2.png) | ![](figures/fig6_garch_cond_vol.png) |
+| ![](fig4_acf_r.png) | ![](fig5_acf_r2.png) | ![](fig6_garch_cond_vol.png) |
 
 ## 快速复现
 
@@ -43,9 +43,9 @@ python main.py
 ```text
 ├── main.py                  # 全部分析代码
 ├── requirements.txt         # 依赖：pandas / numpy / matplotlib / scipy / statsmodels
-├── data/
+├── data.zip
 │   └── SPY_2021_2026.csv    # Yahoo Finance 日度数据（调整后收盘价，1259 个交易日）
-├── figures/                 # 运行 main.py 后自动生成的 6 张图
+├── figures.zip              # 运行 main.py 后自动生成的 6 张图
 └──course_report_matlab.pdf  # 原课程报告，matlab实现
 ```
 
